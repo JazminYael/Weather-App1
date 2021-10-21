@@ -23,9 +23,9 @@ export default function Card({ max, min, name, img, onClose }) {
 }
 
 Card.propTypes = {
-	max: propTypes.number,
-	min: propTypes.number,
-	name: Proptypes.string,
-	img: Proptypes.string,
-	onClose: Proptypes.func,
+	max: PropTypes.number,
+	min: PropTypes.number,
+	name: PropTypes.string,
+	img: PropTypes.string,
+	onClose: PropTypes.func,
 };
